@@ -1,0 +1,790 @@
+{
+  "@@locale": "vi",
+  "@_Common_________________________________________________________________________________________": {},
+  "common_personal": "Cá nhân",
+  "common_account_type": "Loại tài khoản",
+  "common_address": "Địa chỉ",
+  "common_gender": "Giới tính",
+  "common_full_name": "Họ và tên",
+  "common_unknown": "Chưa xác định",
+  "validate_max_length": "Độ dài tối đa của {fieldName} là {number} ký tự.",
+  "@validate_max_length": {
+    "placeholders": {
+      "fieldName": {
+        "type": "String"
+      },
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "common_try_again": "Thử lại",
+  "common_see_more": "Xem thêm",
+  "common_see_less": "Ẩn bớt",
+  "common_search_hint": "Tìm kiếm…",
+  "common_loading": "Đang tải…",
+  "common_retry": "Thử lại",
+  "common_cancel": "Hủy",
+  "common_ok": "Đồng ý",
+  "common_save": "Lưu",
+  "common_search": "Tìm kiếm",
+  "common_decline": "Từ chối",
+  "common_done": "Xong",
+  "common_confirm": "Xác nhận",
+  "common_close": "Đóng",
+  "common_detail": "Chi tiết",
+  "common_continue": "Tiếp tục",
+  "common_use_payment_or_contact_info": "Sử dụng thông tin người thanh toán hoặc thông tin người liên hệ",
+  "common_person_payment": "Người thanh toán",
+  "common_chose_country_calling_code": "Chọn mã gọi quốc gia",
+  "using_payer_or_contact_information": "Sử dụng thông tin người thanh toán hoặc thông tin người liên hệ",
+  "common_enter_discount_code": "nhập mã giảm giá",
+  "see_more": "Xem thêm",
+  "see_less": "Ẩn bớt",
+  "common_adult": "Người lớn",
+  "common_child": "Trẻ em",
+  "common_infant": "Trẻ sơ sinh",
+  "common_other": "Khác",
+  "common_male": "Nam ",
+  "common_female": "Nữ",
+  "common_canceled": "Đã hủy",
+  "common_tickets_issued": "Đã xuất vé",
+  "common_booked": "Đã đặt chỗ (Chưa xuất vé)",
+  "common_ticket_issue_failed": "Xuất vé thất bại",
+  "common_no_reservation_yet": "Đã hủy",
+  "common_prepay": "Trả trước",
+  "common_postpaid": "Trả sau",
+  "common_yes": "Đồng ý",
+  "common_no": "Không",
+  "common_delete": "Xóa",
+  "common_success": "Thành công",
+  "common_complete": "Hoàn tất",
+  "common_in_process": "Đang xử lý",
+  "common_restart": "Khởi động lại",
+  "message_title_bad_request": "Đã xảy ra lỗi",
+  "message_bad_request": "Kết nối đang bị gián đoạn. Vui lòng kiểm tra lại kết nối",
+  "message_title_fetch_data_exception": "Đã xảy ra lỗi",
+  "message_fetch_data_exception": "Rất tiếc, thực hiện không thành công. Vui lòng kiểm tra lại kết nối hoặc thử lại.",
+  "message_title_author": "Đã xảy ra lỗi",
+  "message_author": "Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại.",
+  "message_title_common": "Đã xảy ra lỗi",
+  "message_app_exception_common": "Rất tiếc, thực hiện không thành công. Vui lòng kiểm tra lại kết nối hoặc thử lại.",
+  "no_results_found": "Không tìm thấy kết quả",
+  "no_messages": "Không có tin nhắn, bình luận",
+  "no_documents": "Không có tài liệu",
+  "no_gps_connection": "Không có kết nối GPS",
+  "error": "Đã xảy ra lỗi,\nvui lòng thử lại",
+  "no_internet_connection": "Không có kết nối internet",
+  "empty_inbox": "Hộp thư của bạn trống",
+  "no_images": "Không có hình ảnh",
+  "no_credit_card": "Không có thẻ tín dụng",
+  "no_items_cart": "Giỏ hàng trống",
+  "no_tasks": "Bạn đã xem hết!",
+  "show_case_description_click_here_to_see_price_detail": "Nhấn vào đây để xem chi tiết giá",
+  "widget_radio_text_gender": "Giới tính:",
+  "widget_text_field_input_custom": "Nhập mã đặt chỗ",
+  "an_unknown_error": "Lỗi không xác định",
+  "please_try_again_later": "Vui lòng thử lại sau.",
+  "transaction_detail": "Chi tiết giao dịch",
+  "cancel_transaction": "Hủy giao dịch",
+  "haloki_id": "Mã Haloki",
+  "haloki_balance": "Số dư Haloki",
+  "account_information": "Thông tin tài khoản",
+  "recipient_list": "Danh sách người nhận",
+  "activities_log": "Nhật ký hoạt động",
+  "setting": "Cài đặt",
+  "help": "Hỗ trợ",
+  "verified": "Đã xác minh",
+  "sign_out": "Đăng xuất",
+  "notifications": "Thông báo",
+  "next": "Tiếp theo",
+  "transaction_information": "Thông tin giao dịch",
+  "transaction_amount": "Số tiền giao dịch",
+  "amount": "Số tiền",
+  "confirm": "Xác nhận",
+  "done": "Xong",
+  "review": "Kiểm tra",
+  "confirmation": "Xác nhận",
+  "text_button_fail_log_in": "Thử lại",
+  "processing_transaction_list": "Danh sách giao dịch đang xử lý",
+  "transactions": "Giao dịch",
+  "bank_name": "Tên ngân hàng",
+  "descriptions": "Mô tả",
+  "sending_amount": "Số tiền gửi",
+  "transaction_time": "Thời gian giao dịch",
+  "back_to_home": "Quay lại trang chủ",
+  "request_confirmed": "Yêu cầu đã xác nhận",
+  "transaction_id": "Mã giao dịch",
+  "make_new_transaction": "Tạo giao dịch mới",
+  "email_transaction_details": "Gửi email chi tiết giao dịch",
+  "saved_recipients": "Người nhận đã lưu",
+  "total_available_balance": "Tổng số dư khả dụng",
+  "verify_account": "Xác minh tài khoản",
+  "verify": "Xác minh",
+  "remove": "Xóa",
+  "type": "Loại",
+  "subtype": "Đối tượng",
+  "routing": "Số định tuyến",
+  "available_balance": "Số dư khả dụng",
+  "current_balance": "Số dư hiện tại",
+  "status": "Trạng thái",
+  "total": "Tổng",
+  "progressing": "Đang tiến hành",
+  "pending": "Đang chờ khả dụng",
+  "transferring": "Đang chuyển",
+  "sending": "Đang gửi",
+  "account": "Tài khoản",
+  "resend_code": "Gửi lại mã",
+  "a_few_minutes": "vài phút",
+  "a_day": "24 giờ",
+  "verify_your_information": "Xác minh thông tin",
+  "processing": "Đang xử lý",
+  "common_choose": "Chọn {text}",
+  "@common_choose": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "common_search_text": "Tìm kiếm {text}...",
+  "@common_search_text": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "paste": "Dán",
+  "want_paste_code": "Bạn muốn dán mã này?",
+  "paste_code": "Dán Mã",
+  "common_optional": "Tùy chọn",
+  "common_reset": "Đặt lại",
+  "password_star": "Mật khẩu",
+  "validate_name_is_have_accent": "{fieldName} chỉ chứa các ký tự (a-z)",
+  "@validate_name_is_have_accent": {
+    "placeholders": {
+      "fieldName": {
+        "type": "String"
+      }
+    }
+  },
+  "validate_required": "{fieldName} là bắt buộc",
+  "@validate_required": {
+    "placeholders": {
+      "fieldName": {
+        "type": "String"
+      }
+    }
+  },
+  "account_was_looked": "Tài khoản đã bị khóa",
+  "no_data_found": "Không tìm thấy dữ liệu",
+  "notice": "Chú ý",
+  "birthday": "Sinh nhật",
+  "date_of_birth": "Ngày sinh",
+  "detail_transaction" : "Chi tiết giao dịch",
+  "common_failure": "Thất bại",
+  "@_CommonEnd______________________________________________________________________________________": {},
+  "@_Dashboard______________________________________________________________________________________": {},
+  "no_notification_title": "Không có thông báo",
+  "no_notification_content": "Hãy bắt đầu sử dụng Haloki để nhận thông báo. Chúc bạn có một trải nghiệm tuyệt vời",
+  "recent_transactions": "Giao dịch gần đây",
+  "view_all": "Xem tất cả",
+  "no_transaction": "Chưa có giao dịch",
+  "no_link_bank_account": "Không có tài khoản ngân hàng đã liên kết",
+  "enter_verification_code": "Nhập mã xác minh",
+  "verification_code_has_been_sent": "Một mã xác minh đã được gửi đến email của bạn",
+  "text_language": "Ngôn ngữ",
+  "select_language": "Chọn Ngôn ngữ",
+  "text_theme": "Chủ đề",
+  "select_theme": "Chọn chủ đề",
+  "select_theme_dark": "Tối",
+  "select_theme_light": "Sáng",
+  "select_theme_system": "Hệ thống",
+  "update_app_success": "Cập nhật ứng dụng thành công!",
+  "account_balance": "Số dư tài khoản",
+  "transfer": "Chuyển tiền",
+  "send_money_card": "Gửi\nTiền",
+  "transaction_history": "Lịch sử\ngiao dịch",
+  "dashboard_recently_linked_accounts": "Tài khoản liên kết gần đây",
+  "link_account_button": "Liên kết tài khoản",
+  "no_link_account_start": "Liên kết tài khoản ngân hàng của bạn để bắt đầu thực hiện giao dịch.","@_Dashboard_End__________________________________________________________________________________": {},
+  "@_Verify_________________________________________________________________________________________": {},
+  "verify_error_common": "Có lỗi xảy ra. Vui lòng thử lại sau",
+  "verify_error_incorrect": "Mã xác minh không chính xác",
+  "verification_invalid_code": "Mã xác minh không hợp lệ, vui lòng thử lại.",
+  "verification_code_expired": "Mã xác minh đã hết hiệu lực, vui lòng lấy lại mã xác minh khác.",
+  "verify_error_waiting_minutes": "Bạn vừa yêu cầu mã xác minh. Vui lòng đợi vài phút trước khi thử lại.",
+  "verify_error_waiting_24h": "Bạn đã yêu cầu mã xác minh mới quá nhiều lần. Vui lòng đợi 24 giờ trước khi thử lại.",
+  "verify_error_code_is_expired": "Mã xác minh của bạn đã hết hiệu lực. Vui lòng chọn \"gửi lại mã\" để nhận mã xác minh mới.",
+  "verify_error_invalid_value": "Đã xảy ra lỗi không mong muốn. Vui lòng thử lại.",
+  "verify_error_max_verified": "Bạn đã cố nhập mã xác minh quá nhiều lần. Bạn sẽ không thể nhập lại mã xác minh.",
+  "verify_wrong_code_many_time": "Bạn đã nhập sai mã quá nhiều lần.",
+  "verify_only_number": "Chỉ cho phép chữ số",
+  "minimum_limit_of_verification_code": "Giới hạn tối thiểu của Mã xác minh là 6 ký tự",
+  "verify_sent": "Chúng tôi vừa gửi một mã xác minh đến {emailOrPhone}. Vui lòng kiểm tra tin nhắn và nhập mã bạn nhận được.",
+  "@verify_sent": {
+    "placeholders": {
+      "emailOrPhone": {
+        "type": "String"
+      }
+    }
+  },
+  "request_verification_code": "Bạn vừa yêu cầu mã xác minh. Vui lòng đợi {aFewMinutesOr24Hours} trước khi bạn thử lại.",
+  "@request_verification_code": {
+    "placeholders": {
+      "aFewMinutesOr24Hours": {
+        "type": "String"
+      }
+    }
+  },
+  "please_try_again": "Vui lòng chờ và thử lại sau {timeWaiting}",
+  "@please_try_again": {
+    "placeholders": {
+      "timeWaiting": {
+        "type": "String"
+      }
+    }
+  },
+  "verify_request_many_times": "Bạn đã yêu cầu mã xác minh quá nhiều lần. Vui lòng chờ trước khi thử lại sau",
+  "verify_expire": "Mã xác minh sẽ hết hạn trong 05:00",
+  "verify_no_receive": "Không nhận được mã xác minh",
+  "verification_code_sent": "Một mã xác minh đã được gửi đến email\n của bạn",
+  "verification_code_required": "Mã xác minh là bắt buộc",
+  "@_Verify_End______________________________________________________________________________________": {},
+  "@_Launcher_Start_________________________________________________________________________________": {},
+  "boarding_content_one": "Là dịch vụ chuyển tiền nhanh, Haloki giúp người dùng thực hiện các giao dịch chuyển tiền - nhận tiền mọi lúc mọi nơi, không giới hạn.",
+  "boarding_content_two": "Người dùng có thể thực hiện giao dịch bất cứ lúc nào chỉ cần có kết nối internet. Haloki sở hữu giao diện đa ngôn ngữ và thân thiện với người dùng.",
+  "boarding_content_there": "Haloki luôn sẵn sàng giải quyết các vấn đề xảy ra khi thực hiện giao dịch trên ứng dụng.",
+  "boarding_title_one": "Chuyển tiền",
+  "boarding_title_two": "Dễ dàng sử dụng",
+  "boarding_title_there": "Nhanh chóng, bảo mật",
+  "boarding_learn_more": "Tìm hiểu thêm",
+  "@_Launcher_End___________________________________________________________________________________": {},
+  "@_Recipient_Start________________________________________________________________________________": {},
+  "recipient_appbar": "Danh sách người nhận",
+  "recipient_no_recipient": "Không có người nhận",
+  "recipient_no_recipient_content": "Bạn chưa lưu thông tin người nhận",
+  "recipient_recipient_name": "Tên người nhận",
+  "recipient_bank_name": "Tên ngân hàng",
+  "recipient_bank_account_number": "Số tài khoản ngân hàng",
+  "recipient_remove_recipient": "Xóa người nhận",
+  "recipient_content_remove": "Bạn muốn xoá người nhận này khỏi danh sách?",
+  "recipient_successfully": "Xóa người nhận thành công",
+  "recipient_successfully_content": "Bạn đã xoá thành công người nhận khỏi danh sách",
+  "@_Recipient_End__________________________________________________________________________________": {},
+  "@_VerifyCode_____________________________________________________________________________________": {},
+  "verify_transaction": "Xác minh giao dịch",
+  "verify_cannot_receive_code": "Không nhận được mã?",
+  "verify_caption_email": "Mã đã được gửi đến email",
+  "verify_caption_phone": "Mã đã được gửi đến số điện thoại",
+  "verify_code_error_count": "Mã xác minh phải có 6 ký tự",
+  "verify_code_error_incorrect": "Mã xác minh không chính xác",
+  "verify_code_phone_email_caption": "Nhập mã chúng tôi đã gửi cho bạn",
+  "verify_code_required": "Mã xác minh là bắt buộc",
+  "verify_confirm": "Xác nhận",
+  "verify_error_block_account": "Tài khoản của bạn đã bị khóa do số lần yêu cầu gửi mã vượt quá số lần cho phép",
+  "verify_error_code_time_out": "Mã xác minh đã hết hiệu lực",
+  "verify_error_wrong_code": "Bạn đã nhập sai mã. Vui lòng kiểm tra và thử lại!",
+  "verify_input_code_hint": "Nhập mã xác minh",
+  "verify_resend_code_caption": "Không nhận được mã?",
+  "verify_sign_in_another": "Đăng nhập bằng tài khoản khác",
+  "@_VerifyCodeEnd__________________________________________________________________________________": {},
+  "@_Transfer_______________________________________________________________________________________": {},
+  "complete_transaction": "Hoàn thành 2 bước dưới đây để kết thúc giao dịch của bạn",
+  "transfer_common": "Chuyển tiền",
+  "transfer_title_status_info": "Thông tin Trạng thái",
+  "transfer_status_incomplete": "Chưa hoàn tất",
+  "transfer_content_status_processed": "Yêu cầu giao dịch của bạn đang được xử lý.",
+  "transfer_content_status_incomplete": "Bạn chưa xác nhận yêu cầu giao dịch.",
+  "transfer_transaction_question_cancel": "Bạn có muốn hủy giao dịch này không?",
+  "transfer_title_step_1": "Số tiền",
+  "transfer_title_step_2": "Người nhận",
+  "transfer_title_step_3": "Xác nhận",
+  "transfer_title_step_4": "Xong",
+  "transfer_warning_empty_recipients": "Không có tài khoản ngân hàng",
+  "transfer_warning_empty_banks": "Không có ngân hàng",
+  "transfer_menu": "Menu giao dịch",
+  "transfer_cancel_transaction": "Hủy giao dịch",
+  "transfer_warning_deleted": "Những giao dịch chưa hoàn tất sẽ bị xóa sau 24 giờ",
+  "transfer_detail_item_id": "Mã giao dịch",
+  "transfer_detail_item_time": "Thời gian giao dịch",
+  "transfer_detail_item_recipient_name": "Tên người nhận",
+  "transfer_detail_item_recipient_type": "Loại người nhận",
+  "transfer_detail_item_bank_account": "Tài khoản ngân hàng",
+  "transfer_detail_item_bank_name": "Tên ngân hàng",
+  "transfer_detail_item_email": "Email",
+  "transfer_detail_item_phone": "Số điện thoại",
+  "transfer_detail_item_des": "Mô tả",
+  "transfer_detail_item_status": "Trạng thái",
+  "transfer_detail_item_amount": "Số tiền",
+  "transfer_detail_item_exchange": "Tỷ giá",
+  "transfer_detail_item_total": "Tổng tiền đến người nhận",
+  "transfer_field_choose_country": "Chọn quốc gia người nhận",
+  "transfer_warning_step_amount": "Tỷ giá có thể dao động trong suốt quá trình",
+  "transfer_warning_err_step_amount_1": "Số dư tài khoản của bạn không đủ để thực hiện giao dịch này. Vui lòng gửi tiền vào tài khoản Haloki của bạn.",
+  "transfer_des_regulations": "Mô tả phải là một chuỗi chữ và số có tối đa 150 ký tự và không được chứa bất kỳ ký tự đặc biệt nào.",
+  "transfer_label_btn_save_recipient": "Lưu người nhận cho những lần giao dịch khác",
+  "transfer_label_recipient_bank_name": "Tên ngân hàng người nhận",
+  "transfer_label_recipient_bank_number": "Số tài khoản ngân hàng người nhận",
+  "transfer_label_recipient_save": "Người nhận đã lưu",
+  "transfer_label_transaction_amount": "Số tiền giao dịch",
+  "transfer_amount": "Số tiền chuyển",
+  "transfer_label_bank_number": "số tài khoản ngân hàng",
+  "transfer_recipient_info": "Thông tin người nhận",
+  "transfer_successful_cancellation": "Hủy thành công",
+  "transfer_text_notifier_cancellation": "Bạn đã hủy thành công giao dịch này. Tiền của bạn sẽ sớm được trả về tài khoản Haloki. ",
+  "transfer_text_notifier_done": "Bạn đã chuyển thành công {transferAmount} (tương đương {equalAmount}) đến",
+  "@transfer_text_notifier_done": {
+    "placeholders": {
+      "transferAmount": {
+        "type": "String"
+      },
+      "equalAmount": {
+        "type": "String"
+      }
+    }
+  },
+  "transfer_text_notifier_transferring": "Yêu cầu chuyển tiền đến",
+  "transfer_text_err_description_format": "Mô tả chỉ chứa các ký tự (a-z) hoặc chữ số",
+  "transfer_text_err_description_length": "Mô tả không quá 150 ký tự",
+  "transfer_time_done": "vào lúc {time} đã được xác nhận",
+  "@transfer_time_done": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "transfer_fee": "Phí",
+  "transfer_delete_transaction": "Xóa giao dịch",
+  "transfer_transaction_question_delete": "Bạn muốn xóa giao dịch này?",
+  "transfer_error_transfer_amount": "Số tiền chuyển phải lớn hơn 0",
+  "transfer_select_bank": "Chọn ngân hàng",
+  "transfer_detail_recipient_account_type": "Loại tài khoản người nhận",
+  "transaction_fee": "Phí giao dịch",
+  "transfer_dialog_changes_transaction": "Đã có một số thay đổi trong giao dịch của bạn. Bạn vẫn muốn tiếp tục?",
+  "transfer_error_2018": "Tiền tệ không được hỗ trợ",
+  "transfer_error_2010": "Số tiền đầu vào phải lớn hơn mức phí tối thiểu. Vui lòng nhập số tiền lớn hơn",
+  "transfer_error_3002": "Tài khoản không khả dụng",
+  "transfer_error_3011": "Tài khoản Haloki chưa được xác minh",
+  "transfer_error_3012": "Tài khoản Haloki bị chặn",
+  "transfer_error_3005": "Số dư không đủ",
+  "@_TransferEnd____________________________________________________________________________________": {},
+  "@_Transaction_history____________________________________________________________________________": {},
+  "transaction_history_title_transaction_history": "Lịch sử giao dịch",
+  "transaction_history_title_tab_send_money": "Gửi tiền",
+  "transaction_history_title_tab_transfer_money": "Chuyển tiền",
+  "transaction_history_title_status_information": "Thông tin trạng thái",
+  "transaction_history_title_transaction_information": "Thông tin giao dịch",
+  "transaction_history_title_transaction_id": "Mã giao dịch",
+  "transaction_history_title_transaction_time": "Thời gian giao dịch",
+  "transaction_history_title_recipient_name": "Tên người nhận",
+  "transaction_history_title_bank_account_number": "Số tài khoản ngân hàng",
+  "transaction_history_title_recipient_type_account": "Loại tài khoản người nhận",
+  "transaction_history_title_bank_name": "Tên ngân hàng",
+  "transaction_history_title_description": "Mô tả",
+  "transaction_history_title_status": "Trạng thái",
+  "transaction_history_title_transaction_amount": "Số tiền giao dịch",
+  "transaction_history_title_amount": "Số tiền",
+  "transaction_history_title_connected_bank_account": "Phí tài khoản ngân hàng được kết nối (ACH)",
+  "transaction_history_title_our_fee": "Phí của chúng tôi",
+  "transaction_history_title_total_fee": "Tổng phí",
+  "transaction_history_title_total_haloki_acc": "Tổng tiền đến tài khoản Haloki",
+  "transaction_history_title_transfer_amount": "Số tiền chuyển",
+  "transaction_history_title_exchange_rate": "Tỷ giá",
+  "transaction_history_title_total_to_receiver": "Tổng tiền đến người nhận",
+  "transaction_history_title_no_transaction_yet": "Chưa có giao dịch",
+  "transaction_history_title_transaction_detail": "Chi tiết giao dịch",
+  "transaction_history_title_filter_send_money": "Lọc gửi tiền",
+  "transaction_history_title_filter_transfer_money": "Lọc chuyển tiền",
+  "transaction_history_title_status_all": "Tất cả",
+  "transaction_history_title_status_processing": "Đang xử lý",
+  "transaction_history_title_status_success": "Thành công",
+  "transaction_history_title_status_cancel": "Hủy",
+  "transaction_history_title_status_denied": "Từ chối",
+  "transaction_history_title_status_failed": "Thất bại",
+  "transaction_history_title_action_btn_retry": "Thử lại",
+  "transaction_history_filter_title_date_to": "Đến",
+  "transaction_history_filter_title_date_from": "Từ",
+  "transaction_history_title_action_btn_filter": "Lọc",
+  "transaction_history_title_action_btn_reset": "Đặt lại",
+  "transaction_history_title_action_btn_close": "Đóng",
+  "transaction_history_define_processing": "Giao dịch đã được xác nhận. Chúng tôi đang xử lý giao dịch của bạn.",
+  "transaction_history_define_success": "Giao dịch đã được hoàn tất thành công.",
+  "transaction_history_define_cancel": "Bạn đã hủy giao dịch này. Tất cả số tiền sẽ được hoàn lại.",
+  "transaction_history_define_denied": "Yêu cầu giao dịch của bạn đã bị từ chối. Vui lòng xem chi tiết giao dịch hoặc liên hệ với bộ phận chăm sóc khách hàng của chúng tôi để biết thêm thông tin.",
+  "transaction_history_define_failed": "Giao dịch thất bại. Tất cả số tiền sẽ được hoàn lại. Vui lòng xem chi tiết giao dịch hoặc liên hệ với bộ phận hỗ trợ khách hàng của chúng tôi để biết thêm thông tin.",
+  "transaction_history_title_filter_reward": "Lọc phần thưởng",
+  "transaction_history_reward": "Phần thưởng",
+  "transaction_empty_des_common": "Bắt đầu giao dịch bằng Haloki của bạn. Tất cả các giao dịch được thực hiện sẽ hiển thị tại đây",
+  "transaction_history_reward_title": "Chưa có phần thưởng",
+  "reward_information": "Thông tin phần thưởng",
+  "transaction_reward_detail": "Chi tiết phần thưởng",
+  "@_End_Transaction_history________________________________________________________________________": {},
+  "@_Sign___________________________________________________________________________________________": {},
+  "sign_title_welcome": "Chào mừng đến với Haloki",
+  "sign_in": "Đăng nhập ",
+  "sign_enter_email_or_number": "Email",
+  "error_common_sign_in" : "Tên tài khoản hoặc mật khẩu không chính xác",
+  "sign_enter_password": "Mật khẩu",
+  "sign_forgot_password": "Quên mật khẩu?",
+  "sign_do_not_have_an_account": "Không có tài khoản?",
+  "sign_up": "Đăng ký",
+  "sign_up_title": "Tạo Tài Khoản",
+  "sign_up_first_name": "Tên",
+  "sign_up_last_name": "Họ",
+  "sign_confirm_password": "Xác nhận mật khẩu",
+  "sign_back": "Quay lại ",
+  "sign_text_policy": "Bằng cách nhấp vào Đăng ký, bạn xác nhận rằng bạn trên 18 tuổi và bạn đồng ý với ",
+  "sign_term_of_Service": "Điều khoản dịch vụ",
+  "sign_data_policy": "Chính sách dữ liệu",
+  "sign_cookies_policy": "Chính sách cookie",
+  "sign_and": "và",
+  "sign_community_standards": "Tiêu chuẩn cộng đồng của chúng tôi",
+  "sign_in_error_login_message": "Thông tin đăng nhập bạn cung cấp không khớp với bất kỳ tài khoản nào. Vui lòng thử lại",
+  "sign_in_error_login_negative": "Thử lại",
+  "sign_up_account_blocked": "Tài khoản này đã bị chặn! Chúng tôi nhận thấy một số hoạt động bất thường trên tài khoản của bạn. Để giúp bảo vệ bạn khỏi gian lận hoặc lạm dụng, chúng tôi đã tạm thời chặn tài khoản này.",
+  "sign_up_birthday_format": "%3s–%2s–%1s",
+  "sign_up_notify_account_exist": "Tài khoản đã tồn tại, vui lòng sử dụng số điện thoại hoặc email khác.",
+  "sign_up_password_length_error": "Mật khẩu phải có ít nhất 6 ký tự",
+  "sign_up_password_length_more_128_error": "Giới hạn tối đa của Mật khẩu là 128 ký tự",
+  "sign_up_first_name_Invalid_error": "Tên không hợp lệ",
+  "sign_up_last_name_Invalid_error": "Họ không hợp lệ",
+  "sign_up_login_handler_button0": "Đã có tài khoản?",
+  "validate_empty": "Trường là bắt buộc",
+  "validate_confirm_password": "Mật khẩu xác nhận không khớp",
+  "validate_format": "Định dạng không hợp lệ",
+  "validate_format_email": "Email không hợp lệ",
+  "validate_password": "Mật khẩu này quá dễ đoán",
+  "validate_email_require": "Email là bắt buộc",
+  "validate_password_require": "Mật khẩu là bắt buộc",
+  "validate_confirm_password_require": "Mật khẩu xác nhận là bắt buộc",
+  "validate_last_name_require": "Họ là bắt buộc",
+  "validate_first_name_require": "Tên là bắt buộc",
+  "validate_email_require_for_search": "Nhập email của bạn",
+  "error_unauthorized_message": "Phiên đăng nhập của bạn đã hết hạn. Vui lòng đăng nhập lại",
+  "error_unauthorized_title": "Xác thực thất bại",
+  "error_unauthorized_content_message": "Thông tin đăng nhập bạn cung cấp không khớp với bất kỳ tài khoản nào. Vui lòng thử lại",
+  "error_code_network_connection": "SocketException: Lỗi kết nối mạng",
+  "error_common": "Có lỗi xảy ra. Vui lòng thử lại sau.",
+  "error_network_title": "Lỗi mạng",
+  "error_network_content_message": "Kết nối mạng bị gián đoạn. Vui lòng kiểm tra kết nối internet của bạn.",
+  "error_password_inconrect": "Mật khẩu hiện tại không đúng.",
+  "error_message_sign_up": "Tài khoản đã tồn tại. Vui lòng sử dụng email khác",
+  "error_title_sign_up": "Đăng ký thất bại",
+  "error_acc_inconrect": "Tên tài khoản hoặc mật khẩu không chính xác.",
+  "error_message_acc_blocked": "Tài khoản này đã bị chặn! Chúng tôi nhận thấy một số hoạt động bất thường trên tài khoản của bạn. Để giúp bảo vệ bạn khỏi gian lận hoặc lạm dụng, chúng tôi đã tạm thời chặn tài khoản này.",
+  "message_error_network_connection": "Kết nối đang bị gián đoạn. Vui lòng kiểm tra lại kết nối",
+  "enter_password": "Nhập mật khẩu",
+  "@_Sign_End_______________________________________________________________________________________": {},
+  "@_Setting________________________________________________________________________________________": {},
+  "setting_update_password_fail": "Cập nhật mật khẩu thất bại. Vui lòng thử lại sau",
+  "setting_account_password": "Mật khẩu tài khoản",
+  "setting_account_password_description": "Bạn nên sử dụng mật khẩu mà bạn chưa từng sử dụng ở nơi nào khác",
+  "setting_email_verify": "Địa chỉ email Haloki sẽ sử dụng để xác minh các hoạt động của bạn.",
+  "setting_email_verify_description": "Email xác minh",
+  "setting_delete_account": "Xóa tài khoản",
+  "setting_delete_account_description": "Khi bạn xóa tài khoản Haloki, bạn sẽ không thể khôi phục hoặc truy cập tài khoản Haloki của mình được nữa.",
+  "setting_delete_account_learn_more": "Tìm hiểu điều gì sẽ xảy ra khi tôi xóa tài khoản.",
+  "setting_change_pass_success": "Bạn đã đổi mật khẩu thành công",
+  "setting_change_pass_incorrect_pass": "Mật khẩu không đúng",
+  "setting_change_pass_same_pas": "Mật khẩu mới trùng với mật khẩu cũ",
+  "setting_change_pass_wrong_pass": "Mật khẩu xác nhận không đúng",
+  "something_went_wrong": "Đã xảy ra sự cố. Vui lòng thử lại sau",
+  "setting_changed_pass": "Đã thay đổi mật khẩu",
+  "setting_change_pass": "Đổi mật khẩu",
+  "setting_change_pass_fail": "Đổi mật khẩu thất bại",
+  "setting_updated_info": "Đã cập nhật thông tin",
+  "setting_updated_info_success": "Thông tin của bạn đã được cập nhật thành công",
+  "setting_current_pass": "Mật khẩu hiện tại",
+  "setting_enter_pass": "Nhập mật khẩu ở đây",
+  "setting_new_pass": "Mật khẩu mới",
+  "setting_confirm_pass": "Xác nhận mật khẩu mới",
+  "delete_account": "Xoá tài khoản",
+  "complete_two_step_delete_account": "Hoàn thành 2 bước dưới đây để xóa tài khoản của bạn",
+  "password_incorrect": "Mật khẩu không chính xác",
+  "account_delete_title": "Tài khoản đã xóa",
+  "account_delete_content": "Bạn đã xóa tài khoản thành công.",
+  "setting_verified": "Đã xác minh",
+  "@_SettingEnd_____________________________________________________________________________________": {},
+  "@_BottomSheet_DeleteAccount______________________________________________________________________": {},
+  "delete_account_zero": "Lưu ý quan trọng khi bạn xóa tài khoản của mình:",
+  "delete_account_line_one": "Khi hoàn tất quá trình xóa tài khoản, bạn sẽ [-not-] thể đăng nhập bằng tài khoản này.",
+  "delete_account_not": "Không",
+  "delete_account_center_help": "Trung tâm hỗ trợ",
+  "delete_account_line_two": "Bạn sẽ [-not-] thể mở lại tài khoản đã xóa của mình.",
+  "delete_account_line_three": "Vui lòng đảm bảo rằng bạn đã hủy mọi giao dịch đang xử lý không mong muốn trước khi xóa tài khoản.",
+  "delete_account_line_four": "Để được hoàn lại số dư [-haloki-], bạn vui lòng gửi yêu cầu hoàn tiền. Để biết thêm thông tin về việc hoàn trả số dư [-haloki-], vui lòng truy cập [-help-] và tìm chủ đề Hủy và Hoàn tiền.",
+  "delete_account_line_five": "Nếu bạn muốn mở một tài khoản [-haloki-] khác, bạn có thể sử dụng thông tin đăng nhập giống như tài khoản bạn đã xóa.",
+  "@End _BottomSheet_DeleteAccount__________________________________________________________________": {},
+  "@_Forget password________________________________________________________________________________": {},
+  "find_your_account": "Tìm tài khoản của bạn",
+  "please_enter_email": "Vui lòng nhập địa chỉ email để tìm kiếm tài khoản.",
+  "enter_email": "Nhập email",
+  "cannot_find_account": "Tài khoản của bạn chưa tồn tại hoặc chưa xác minh. Vui lòng kiểm tra lại!",
+  "confirm_your_account": "Xác nhận tài khoản của bạn",
+  "send_otp_recover": "Chúng tôi sẽ gửi cho bạn một mã xác nhận trước khi bạn đặt lại mật khẩu mới",
+  "confirm_via_email": "Xác nhận qua email",
+  "enter_your_code": "Nhập mã chúng tôi đã gửi đến",
+  "not_yet_received_code": "Bạn chưa nhận được mã xác nhận?",
+  "reset_password": "Đặt lại mật khẩu",
+  "please_enter_password": "Vui lòng nhập mật khẩu mới",
+  "enter_new_password": "Nhập mật khẩu mới",
+  "re_enter_new_password": "Nhập lại mật khẩu mới",
+  "account_recovered_title": "Đã khôi phục tài khoản",
+  "account_recovered_content": "Bạn đã khôi phục tài khoản thành công.",
+  "@_End Forget Password ___________________________________________________________________________": {},
+  "@_AccountInformation_____________________________________________________________________________": {},
+  "account_edit_information": "Chỉnh sửa thông tin",
+  "account_verify": "Xác minh",
+  "account_account_information": "Thông tin tài khoản",
+  "account_warning_none_verify": "Thông tin tài khoản chưa được xác minh. Vui lòng xác minh thông tin của bạn để có thể liên kết tài khoản ngân hàng.",
+  "account_warning_process_verify": "Thông tin tài khoản đang được xử lý. Vui lòng đợi trong khi chúng tôi xác minh tài khoản.",
+  "account_warning_invalid_verify": "Thông tin tài khoản không hợp lệ. Vui lòng kiểm tra thông tin chi tiết bạn đã cung cấp hoặc liên hệ bộ phận hỗ trợ khách hàng của chúng tôi.",
+  "account_warning_valid_verify": "Thông tin tài khoản của bạn đã được xác minh.",
+  "account_warning_none_account": "Bạn chưa xác minh thông tin tài khoản. Vui lòng xác minh thông tin chi tiết của bạn trước khi liên kết Tài khoản ngân hàng.",
+  "account_text_button_link_bank": "Liên kết tài khoản ngân hàng",
+  "account_header_personal_detail": "Thông tin cá nhân",
+  "account_header_verify_your_information": "Xác minh thông tin",
+  "account_header_residential_address": "Địa chỉ cư trú",
+  "account_header_contact_information": "Thông tin liên lạc",
+  "account_header_id_Documentation": "Giấy tờ tùy thân",
+  "account_front_card": "Mặt trước CMND/CCCD",
+  "account_back_card": "Mặt sau CMND/CCCD",
+  "account_edit": "Chỉnh sửa",
+  "account_verify_account_information": "Xác minh thông tin tài khoản",
+  "account_field_phone_code": "Mã điện thoại",
+  "account_field_phone_num": "Số điện thoại",
+  "account_field_email": "Email",
+  "account_field_doc_type": "Loại tài liệu",
+  "account_field_social_num": "Số an sinh xã hội",
+  "account_field_date_of_birth": "Ngày sinh",
+  "account_field_street_address": "Địa chỉ",
+  "account_field_apartment_number": "Số nhà",
+  "account_field_city": "Thành phố/Khu vực",
+  "account_field_postal_code": "Mã bưu chính",
+  "account_field_state": "Bang",
+  "account_field_country": "Quốc gia",
+  "account_image_empty": "Không có hình ảnh",
+  "account_id_verification": "Xác minh giấy tờ tùy thân",
+  "account_verification_log": "Nhật ký xác minh",
+  "account_id_type": "Loại ID",
+  "account_label_field_middle_name": "Tên đệm",
+  "account_notifier_err_edit_information": "Vui lòng kiểm tra lại thông tin",
+  "account_cancel_edit_information": "Hủy chỉnh sửa thông tin",
+  "account_cancel_edit_information_content": "Tất cả thông tin chưa được lưu sẽ bị mất. Bạn có chắc chắn muốn rời khỏi?",
+  "account_select_country": "Chọn quốc gia",
+  "account_select_state": "Chọn bang",
+  "account_select_doctype": "Chọn loại tài liệu",
+  "account_social_security_number": "Số an sinh xã hội không hợp lệ",
+  "@_AccountInformationEnd__________________________________________________________________________": {},
+  "@_Send_Money_____________________________________________________________________________________": {},
+  "send_money": "Gửi tiền",
+  "send_money_header_title": "Chuyển tiền ra nước ngoài giá rẻ, nhanh chóng",
+  "link_bank_account": "Liên kết tài khoản ngân hàng",
+  "send_money_link_bank_account_warn": "Không có tài khoản ngân hàng nào được liên kết hoặc liên kết của bạn đã bị hết hạn. Vui lòng liên kết tài khoản ngân hàng của bạn trước khi gửi tiền.",
+  "send_money_error_3005": "Bạn không có đủ số tiền yêu cầu để giao dịch. Vui lòng thiết lập số tiền nhỏ hơn hoặc chọn một tài khoản khác cho giao dịch này. ",
+  "send_money_error_3000": "Bạn đã vượt quá giới hạn giao dịch hàng năm là 1000 USD mỗi năm.",
+  "send_money_error_3019": "Tài khoản ngân hàng đã liên kết không tồn tại hoặc không thể truy cập được. Vui lòng liên hệ bộ phận hỗ trợ khách hàng của ngân hàng bạn đang sử dụng để biết thêm chi tiết.",
+  "send_money_error_2010": "Số tiền gửi nhỏ hơn phí tối thiểu. Vui lòng chọn số tiền lớn hơn để gửi.",
+  "send_money_information": "Thông tin gửi tiền",
+  "send_money_amount_desciption_validate_rule": "*Mô tả phải là một chuỗi chữ và số có tối đa 150 ký tự và không được chứa bất kỳ ký tự đặc biệt nào.",
+  "send_money_request_review_term": "Bằng cách nhấn vào Xác nhận, bạn ủy quyền cho Haloki ghi nợ tài khoản ngân hàng được chỉ định ở trên đối với bất kỳ số tiền nào còn nợ cho các khoản phí phát sinh từ việc bạn sử dụng dịch vụ của Haloki và/hoặc mua sản phẩm từ Haloki, chiếu theo trang web và điều khoản của Haloki, cho đến khi ủy quyền này bị thu hồi. Bạn có thể sửa đổi hoặc hủy bỏ ủy quyền này bất cứ lúc nào bằng cách gửi thông báo đến Haloki trước 30 (ba mươi) ngày.",
+  "transaction_menu": "Menu giao dịch",
+  "bank_name_required": "Tên ngân hàng là bắt buộc",
+  "bank_account_required": "Tài khoản ngân hàng là bắt buộc",
+  "connected_bank_account_fee": "Phí tài khoản ngân hàng được kết nối (ACH)",
+  "contains_special_characters": "Chứa các ký tự đặc biệt",
+  "must_be_less_than_150_characters": "Phải ít hơn 150 ký tự",
+  "amount_descriptions": "Bạn sẽ nhận được {amount} trong tài khoản Haloki của bạn trong vòng 5 ngày làm việc tiếp theo.",
+  "@amount_descriptions": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "confirmation_body": "Yêu cầu gửi tiền từ tài khoản ngân hàng của bạn {bankAccount} đến tài khoản Haloki đã được xác nhận. Chúng tôi sẽ xử lý giao dịch của bạn trong vòng 5 ngày làm việc.",
+  "@confirmation_body": {
+    "placeholders": {
+      "bankAccount": {
+        "type": "String"
+      }
+    }
+  },
+  "total_amount": "Tổng tiền",
+  "balance_not_enough_err": "Số dư khả dụng của bạn không đủ. Vui lòng chọn một tài khoản ngân hàng khác.",
+  "our_fees": "Phí của chúng tôi",
+  "total_fees": "Tổng phí",
+  "total_to_haloki_account": "Tổng tiền vào tài khoản Haloki",
+  "fee_change": "Thay đổi phí",
+  "sending_amount_is_required": "Số tiền gửi là bắt buộc",
+  "fee_change_content": "Tổng mức phí giao dịch có sự thay đổi từ {before} thành {after}. Bạn sẽ nhận được {amount} trong tài khoản Haloki. \n\n Bạn có muốn tiếp tục không?",
+  "@fee_change_content": {
+    "placeholders": {
+      "before": {
+        "type": "String"
+      },
+      "after": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "send_money_error_3001": "Số tiền gửi phải từ {min} đến {max}",
+  "@send_money_error_3001": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "send_money_error_3000_per_year": "Bạn đã vượt quá giới hạn giao dịch hàng năm là {limit} mỗi năm.",
+  "@send_money_error_3000_per_year": {
+    "placeholders": {
+      "limit": {
+        "type": "String"
+      }
+    }
+  },
+  "send_money_error_3000_per_day": "Bạn đã vượt quá giới hạn giao dịch hàng ngày là {limit} mỗi ngày.",
+  "@send_money_error_3000_per_day": {
+    "placeholders": {
+      "limit": {
+        "type": "String"
+      }
+    }
+  },
+  "@_Send_Money_End_________________________________________________________________________________": {},
+  "@_Bank_Account___________________________________________________________________________________": {},
+  "bank_account": "Tài khoản ngân hàng",
+  "bank_accounts": "Tài khoản ngân hàng",
+  "re_connect": "Kết nối lại",
+  "bank_not_verify_warn": "Ngân hàng của bạn chưa được xác minh. Vui lòng xác minh để kết nối với ngân hàng này.",
+  "bank_expired_warn": "Liên kết của bạn đã hết hạn. Vui lòng kết nối lại với ngân hàng này.",
+  "remove_bank": "Xóa ngân hàng",
+  "remove_bank_prompt_dialog_content": "Xóa ngân hàng của bạn khỏi Haloki. Bạn sẽ được yêu cầu liên kết lại ngân hàng nếu muốn thực hiện nhiều giao dịch hơn từ ngân hàng này. Bạn có muốn tiếp tục?",
+  "remove_bank_account": "Xóa tài khoản ngân hàng",
+  "remove_bank_account_prompt_dialog_content": "Xóa tài khoản ngân hàng của bạn khỏi Haloki. Bạn sẽ được yêu cầu liên kết lại tài khoản ngân hàng nếu muốn thực hiện nhiều giao dịch hơn từ tài khoản này. Bạn có muốn tiếp tục?",
+  "bank_account_detail": "Chi tiết tài khoản ngân hàng",
+  "remove_bank_success": "Xóa ngân hàng thành công",
+  "you_have_remove_bank_successfully": "Bạn đã xóa ngân hàng thành công",
+  "bank_account_name": "Tên tài khoản ngân hàng",
+  "bank_account_number": "Số tài khoản ngân hàng",
+  "add_bank_account": "Thêm tài khoản ngân hàng",
+  "not_verify": "Không xác minh",
+  "not_verified": "Chưa xác minh",
+  "bank_account_verifying_warn": "Thông tin tài khoản của bạn đang được xác minh.\nVui lòng đợi trong khi chúng tôi xác minh.",
+  "bank_account_link_bank_warn": "Liên kết tài khoản ngân hàng của bạn để bắt đầu thực hiện giao dịch.",
+  "bank_account_not_verify_warn": "Bạn chưa xác minh thông tin tài khoản của mình. Vui lòng xác minh thông tin chi tiết trước khi liên kết Tài khoản ngân hàng.",
+  "@_Bank_Account_End_______________________________________________________________________________": {},
+  "@_Plaid__________________________________________________________________________________________": {},
+  "permission_denied_title": "Quyền thực hiện bị từ chối",
+  "permission_denied_content": "Yêu cầu truy cập Camera. Truy cập Cài đặt, nhấn vào Quyền, và chọn Cho phép",
+  "go_to_setting_text_button": "Đi đến cài đặt",
+  "dismiss_text_button": "Bỏ qua",
+  "plaid_failure_title": "Lỗi",
+  "plaid_link_failure": "Không tìm thấy Plaid item",
+  "plaid_invalid_token": "Mã token truy cập Plaid không hợp lệ",
+  "plaid_account_not_available": "Chúng tôi không thể tìm thấy Tài khoản Haloki của bạn. Vui lòng liên hệ bộ phận hỗ trợ khách hàng để biết thêm chi tiết.",
+  "plaid_exchange_token_not_available": "Exchange Token không khả dụng",
+  "plaid_link_token_not_available": "Ngân hàng đã liên kết này không khả dụng hoặc đã bị xóa. Bạn cần phải liên kết lại ngân hàng trước khi thực hiện yêu cầu giao dịch bằng tài khoản ngân hàng của ngân hàng này.",
+  "@_Plaid_End______________________________________________________________________________________": {},
+  "@_Notification___________________________________________________________________________________": {},
+  "haloki_transaction_send_money_transaction_request": "Mã yêu cầu giao dịch của bạn: {zero} gửi tiền từ {one} đến tài khoản Haloki đã được xác nhận. Chúng tôi sẽ xử lý giao dịch của bạn trong vòng 5 ngày làm việc.",
+  "@haloki_transaction_send_money_transaction_request": {
+    "placeholders": {
+      "zero": {
+        "type": "String"
+      },
+      "one": {
+        "type": "String"
+      }
+    }
+  },
+  "haloki_transaction_send_money_transaction_completed_success": "Mã giao dịch của bạn: {zero} gửi tiền từ {one} đến tài khoản Haloki đã thành công",
+  "@haloki_transaction_send_money_transaction_completed_success": {
+    "placeholders": {
+      "zero": {
+        "type": "String"
+      },
+      "one": {
+        "type": "String"
+      }
+    }
+  },
+  "haloki_transaction_send_money_transaction_completed_failure": "Mã giao dịch của bạn: {zero} gửi tiền từ {one} đến tài khoản Haloki không thành công. Vui lòng xem chi tiết giao dịch hoặc liên hệ với bộ phận hỗ trợ của chúng tôi để biết thêm thông tin.",
+  "@haloki_transaction_send_money_transaction_completed_failure": {
+    "placeholders": {
+      "zero": {
+        "type": "String"
+      },
+      "one": {
+        "type": "String"
+      }
+    }
+  },
+  "haloki_transaction_transfer_transaction_request": "Mã yêu cầu của bạn: {zero} chuyển tiền đến {one} đang được xử lý.",
+  "@haloki_transaction_transfer_transaction_request": {
+    "placeholders": {
+      "zero": {
+        "type": "String"
+      },
+      "one": {
+        "type": "String"
+      }
+    }
+  },
+  "haloki_transaction_transfer_transaction_completed_success": "Mã giao dịch của bạn: {zero} chuyển tiền đến {one} đã thành công.",
+  "@haloki_transaction_transfer_transaction_completed_success": {
+    "placeholders": {
+      "zero": {
+        "type": "String"
+      },
+      "one": {
+        "type": "String"
+      }
+    }
+  },
+  "haloki_transaction_transfer_transaction_declined": "Mã giao dịch của bạn: {zero} chuyển tiền đến {one} đã bị từ chối. Vui lòng xem chi tiết giao dịch hoặc liên hệ với bộ phận hỗ trợ của chúng tôi để biết thêm thông tin.",
+  "@haloki_transaction_transfer_transaction_declined": {
+    "placeholders": {
+      "zero": {
+        "type": "String"
+      },
+      "one": {
+        "type": "String"
+      }
+    }
+  },
+  "haloki_transaction_transfer_transaction_cancelled": "Bạn đã hủy mã yêu cầu chuyển tiền: {zero} đến {one}.",
+  "@haloki_transaction_transfer_transaction_cancelled": {
+    "placeholders": {
+      "zero": {
+        "type": "String"
+      },
+      "one": {
+        "type": "String"
+      }
+    }
+  },
+  "haloki_information_verification_kyc_sucess": "Thông tin tài khoản của bạn đã được xác minh. Hãy bắt đầu liên kết tài khoản ngân hàng của bạn để thực hiện giao dịch.",
+  "haloki_information_link_bank_account_expired": "Liên kết của bạn đến {zero} đã hết hiệu lực. Vui lòng kết nối lại để sử dụng ngân hàng này.",
+  "@haloki_information_link_bank_account_expired": {
+    "placeholders": {
+      "zero": {
+        "type": "String"
+      }
+    }
+  },
+  "notification_message_network_error_default": "Không có thể kết nối",
+  "notification_refresh_title_error_default": "Vui lòng thử lại sau",
+  "notification_message_error_default": "Lỗi không xác định",
+  "@_Notification_End_______________________________________________________________________________": {}
+}

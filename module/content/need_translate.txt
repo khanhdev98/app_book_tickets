@@ -1,0 +1,8 @@
+{
+  "vi": [
+    "validate_max_limit",
+    "validate_from_to_characters",
+    "validate_postal_code_us",
+    "title_relogin_error"
+  ]
+}

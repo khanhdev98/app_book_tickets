@@ -26,8 +26,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  widget:
+    path: module/widget
   theme:
     path: module/theme
+  confict:
+    path: module/confict
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -37,6 +41,11 @@ dependencies:
   fluentui_icons: ^1.0.0
   auto_size_text:
   get:
+  barcode_widget: ^2.0.2
+  flutter_bloc:
+  equatable: ^2.0.5
+  flutter_easyloading: ^3.0.5
+  encrypt: 5.0.1
 
 dev_dependencies:
   flutter_test:

@@ -35,7 +35,7 @@ class AppSpacing {
   static get xxLarge => SizedBox.square(dimension: HaloSize.spacingXXL * HaloSize.sizeScale);
 }
 
-class HaloDivider {
+class AppDivider {
   static get horizontal => const Divider(
         height: 1,
       );
