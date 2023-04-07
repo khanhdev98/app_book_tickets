@@ -10,6 +10,7 @@ import 'package:untitled2/presentation/tickets/screen/search_screen.dart';
 import 'package:widget/page_route/pop_scope_dismiss_route.dart';
 
 import '../presentation/tickets/screen/tickets_tab_page.dart';
+import 'package:widget/setting/setting_dashboard.dart';
 
 class AppRouters implements RouterModule {
   AppRouters._();
@@ -24,8 +25,10 @@ class AppRouters implements RouterModule {
   static const String tabSearch = '/tabSearch';
   static const String tabTicket = '/tabTicket';
   static const String tabProfile = '/tabProfile';
+  static const String tabSetting = '/tabSetting';
+
   @override
-  List<String> routers = [home, tabHome, tabSearch, tabTicket, tabProfile];
+  List<String> routers = [home, tabHome, tabSearch, tabTicket, tabProfile, tabSetting];
 
   @override
   Route? generateRoute(RouteSettings settings) {
@@ -73,6 +76,13 @@ class AppRouters implements RouterModule {
           settings: settings,
           child: () {
             return const ProfileScreen();
+          },
+        );
+      case tabSetting:
+        return popScopeDismissRoute(
+          settings: settings,
+          child: () {
+            return const SettingDashBoard();
           },
         );
     }

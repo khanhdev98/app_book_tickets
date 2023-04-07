@@ -6,6 +6,8 @@ import 'package:theme/material3/m3_theme_lib.dart';
 import 'package:widget/tickets_page/dot_widget.dart';
 import 'package:widget/tickets_page/double_row_widget.dart';
 
+import '../../../di/router.dart';
+
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({Key? key}) : super(key: key);
 
@@ -172,7 +174,7 @@ class ProfileScreen extends StatelessWidget {
           AppSpacing.small,
           TextButton(
             onPressed: () {
-              Navigator.pop(context);
+              Navigator.pushNamed(context, AppRouters.tabSetting);
             },
             child: const Text("How to get more miles", style: TextStyle(color: AppColor.bgColor)),
           ),
