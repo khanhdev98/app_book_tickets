@@ -10,7 +10,7 @@ import 'package:untitled2/presentation/tickets/screen/search_screen.dart';
 import 'package:widget/page_route/pop_scope_dismiss_route.dart';
 
 import '../presentation/tickets/screen/tickets_tab_page.dart';
-import 'package:widget/setting/setting_dashboard.dart';
+// import 'package:widget/setting/setting_dashboard.dart';
 
 class AppRouters implements RouterModule {
   AppRouters._();
@@ -82,7 +82,7 @@ class AppRouters implements RouterModule {
         return popScopeDismissRoute(
           settings: settings,
           child: () {
-            return const SettingDashBoard();
+            return Container();
           },
         );
     }

@@ -1,0 +1,57 @@
+name: setting_user
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  theme:
+    path: ../core/theme
+  widget:
+    path: ../core/widget
+  modules_share:
+    path: ../core/module_sharing
+  flutter_core:
+    git:
+      url: https://git.hahalolo.com/scm/msoc/flutter-core.git
+      ref: master
+  bloc:
+  injectable:
+  retrofit:
+  build_runner:
+  freezed:
+  freezed_annotation:
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  json_serializable:
+  injectable_generator:
+  retrofit_generator:
+
+flutter:
+  assets:
+    - lib/resource/assets/images/
+    - lib/resource/assets/images/2x/
+    - lib/resource/assets/images/3x/
+flutter_gen:
+  output: lib/resource/gen
+  integrations:
+    lottie: true
+  fonts:
+    enabled: false
+  colors:
+    enabled: false
+  assets:
+    enabled: true
+    outputs:
+      class_name: SettingUserAssets
+      package_parameter_enabled: true
+    exclude:
+      - lib/resource/assets/**/2x/**
+      - lib/resource/assets/**/3x/**
