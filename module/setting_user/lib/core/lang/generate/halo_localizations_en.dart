@@ -50,7 +50,7 @@ class StrEn extends Str {
   String get setting_user_edit_profile_contact => 'Contact Info';
 
   @override
-  String get setting_user_edit_profile_place_title => 'Places You\'ve lived';
+  String get setting_user_edit_profile_place_title => 'Places You\'\'ve lived';
 
   @override
   String get setting_user_edit_profile_education => 'Education';

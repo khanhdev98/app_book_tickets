@@ -786,5 +786,6 @@
   "notification_message_network_error_default": "Không có thể kết nối",
   "notification_refresh_title_error_default": "Vui lòng thử lại sau",
   "notification_message_error_default": "Lỗi không xác định",
-  "@_Notification_End_______________________________________________________________________________": {}
+  "@_Notification_End_______________________________________________________________________________": {},
+  "flight_v2_search_select_date": "Select date"
 }

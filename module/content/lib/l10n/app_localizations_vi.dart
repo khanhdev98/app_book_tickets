@@ -1717,4 +1717,7 @@ class StrVi extends Str {
 
   @override
   String get notification_message_error_default => 'Lỗi không xác định';
+
+  @override
+  String get flight_v2_search_select_date => 'Select date';
 }

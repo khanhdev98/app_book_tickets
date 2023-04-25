@@ -830,5 +830,6 @@
   "notification_message_network_error_default": "Unable to connect",
   "notification_refresh_title_error_default": "Please try again later.",
   "notification_message_error_default": "An unknown error",
-  "@_Notification_End_______________________________________________________________________________": {}
+  "@_Notification_End_______________________________________________________________________________": {},
+  "flight_v2_search_select_date": "Select date"
 }

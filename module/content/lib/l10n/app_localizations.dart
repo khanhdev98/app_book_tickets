@@ -3416,6 +3416,12 @@ abstract class Str {
   /// In en, this message translates to:
   /// **'An unknown error'**
   String get notification_message_error_default;
+
+  /// No description provided for @flight_v2_search_select_date.
+  ///
+  /// In en, this message translates to:
+  /// **'Select date'**
+  String get flight_v2_search_select_date;
 }
 
 class _StrDelegate extends LocalizationsDelegate<Str> {

@@ -1717,4 +1717,7 @@ class StrEn extends Str {
 
   @override
   String get notification_message_error_default => 'An unknown error';
+
+  @override
+  String get flight_v2_search_select_date => 'Select date';
 }

@@ -60,6 +60,7 @@ dev_dependencies:
   infinite_scroll_pagination: ^3.2.0
   http:
   dio:
+  melos: ^3.0.0
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 

@@ -1,0 +1,139 @@
+name: flutter_module
+
+packages:
+  - .
+  - module/**
+
+scripts:
+  # ========================================================================== #
+
+  min_sdk:
+    run: sh scripts/shell/min_sdk_android.sh
+
+  # ========================================================================== #
+
+  gen_pigeon:
+    run: echo "Current not support"
+
+  # ========================================================================== #
+
+  pub-get:
+    exec: flutter pub get
+
+  pub-full:
+    exec: |
+      rm -rf .dart_tool
+      rm -rf pubspec.lock
+      flutter clean
+      flutter pub get
+
+  get:module:
+    exec: |
+      rm -rf .dart_tool
+      rm -rf pubspec.lock
+      flutter clean
+      flutter pub get
+    packageFilters:
+      dirExists: ../../module
+      fileExists: 'pubspec.yaml'
+
+  # ========================================================================== #
+
+  lang:
+    exec: flutter gen-l10n
+    packageFilters:
+      fileExists: 'l10n.yaml'
+
+  # ========================================================================== #
+
+#  source:
+#    run: |
+#      melos source:core
+#      melos source:module
+#      melos source:root
+#
+#  source:root:
+#    run: |
+#      flutter packages pub run build_runner clean
+#      flutter packages pub run build_runner build \
+#      --delete-conflicting-outputs
+#
+#  source:core:
+#    exec: |
+#      flutter packages pub run build_runner clean
+#      flutter packages pub run build_runner build \
+#      --delete-conflicting-outputs
+#    packageFilters:
+#      dirExists: ../../core
+#      fileExists: 'build_runner.sh'
+
+#  source:module:
+#    exec: |
+#      flutter packages pub run build_runner clean
+#      flutter packages pub run build_runner build \
+#      --delete-conflicting-outputs
+#    packageFilters:
+#      dirExists: ../../modules
+#      fileExists: 'build_runner.sh'
+
+  # ========================================================================== #
+
+#  asset:
+#    run: |
+#      melos asset:core
+#      melos asset:module
+#
+#  asset:core:
+#    exec: fluttergen -c ./pubspec.yaml
+#    packageFilters:
+#      dirExists: ../../core
+#      fileExists: 'build_assets.sh'
+#
+#  asset:module:
+#    exec: fluttergen -c ./pubspec.yaml
+#    packageFilters:
+#      dirExists: ../../modules
+#      fileExists: 'build_assets.sh'
+
+  # ========================================================================== #
+
+  build:
+    run: |
+      melos get
+      melos pub_pubs
+      melos lang
+      melos source
+      melos asset
+      melos min_sdk
+      melos env_release live
+
+  build:dev:
+    run: |
+      melos get
+      melos pub_pubs
+      melos lang
+      melos source
+      melos asset
+      melos min_sdk
+      melos env_dev test
+
+  build:plugin:
+    run: |
+      melos get
+      melos pub_pubs
+      melos lang
+      melos source
+      melos asset
+      melos min_sdk
+      melos env_plugin test
+
+  # ========================================================================== #
+
+  env_dev:
+    run: scripts/shell/build_file_env.sh dev true true
+
+  env_plugin:
+    run: scripts/shell/build_file_env.sh plugin true false
+
+  env_release:
+    run: scripts/shell/build_file_env.sh release false false
